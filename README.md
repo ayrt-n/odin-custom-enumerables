@@ -19,4 +19,4 @@ Among the files, custom_enumerables.rb contains the custom methods while compare
 
 While compare_methods.rb contains a comparison between custom methods and the originals, this could be improved with testing (have not yet covered section on TDD).
 
-Additionally, some of the methods (e.g., any?, all?, none?) accept optional pattern arguments which are not included within the custom methods. Pattern argument could be added in the future (in which case method would check whether pattern === element) but would require some additional work to adapt the method to accept hashes (in which case method would check whether hash.assoc(key) == pattern, as per Ruby docs).
+Additionally, some of the methods (e.g., any?, all?, none?) accept an optional pattern argument which I have not included within the custom methods. Pattern argument could be added in the future (in which case method would check whether pattern === element) but would require some additional work to adapt the method to accept hashes (in which case method would check whether hash.assoc(key) == pattern, as per Ruby docs).
